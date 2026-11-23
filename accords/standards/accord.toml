@@ -1,0 +1,16 @@
+name = "Standards"
+slug = "standards"
+kind = "practice"
+version = 1
+grows-from = "charter >= 2"
+licence = "CC-BY-SA-4.0"
+
+[provisions]
+protocol = "see rfc/drafts/standards-profiles.md"
+display = "standard underneath, each member's own conventions on top"
+by-place = [
+  "food hygiene: as required where the circle meets",
+  "electrical codes: as required where installed",
+  "building codes: as required where built",
+  "safeguarding and background checks: as required where care is given",
+]

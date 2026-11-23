@@ -1,0 +1,25 @@
+name = "Selewa"
+slug = "selewa"
+kind = "practice"
+version = 0
+status = "seed"
+grows-from = ["charter >= 2", "standards >= 1"]
+licence = "CC-BY-SA-4.0"
+language-tag = "art-x-selewa"
+
+[provisions.sounds]
+vowels = ["a", "e", "i", "o", "u"]
+consonants = ["p", "t", "k", "m", "n", "s", "l", "w", "y", "h"]
+syllable = "C?V(n)?"
+stress = "first syllable of a root"
+
+[provisions.rules]
+roots_never_change = true
+compounding = "modifier first, head last"
+relative_clauses = "after the noun, introduced by li"
+grammar_words = ["e", "o", "ka", "pe", "lu", "ti", "li", "ye", "ke", "yan", "ho", "ne", "pa", "si", "wi", "wa"]
+
+[provisions.records]
+"word.coined" = "a member proposes a root or compound, with meaning, examples and reason"
+"word.adopted" = "a circle takes a word into use"
+"root.defined" = "a root's meaning written in the semantic primes"

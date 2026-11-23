@@ -1,0 +1,19 @@
+name = "Concordance Charter"
+slug = "charter"
+kind = "root"
+version = 2
+licence = "CC-BY-SA-4.0"
+change-note = "Simplified from version 1: detail moved into accords and the app; principles renamed; confidentiality and faith welcome added."
+history = ["history/v1.md"]
+
+[provisions]
+records = ["circle.founded", "member.introduced", "member.welcomed", "accord.signed", "member.left", "proposal.opened", "proposal.comment", "proposal.agreed"]
+roles = ["safety lead"]
+rules = [
+  "membership: an introduction and a welcome from a member who has met the newcomer",
+  "decisions: small matters proceed unless a concern is raised; bigger matters need agreement everyone taking part can live with",
+  "safety: concerns about a child or vulnerable adult go to the safety lead, and to authorities where the law requires",
+  "exit: any member may leave at any time and export their history",
+]
+privacy = "circle"
+cannot-be-overridden = ["safety", "exit", "export", "privacy of private records"]

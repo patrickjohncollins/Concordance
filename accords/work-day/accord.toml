@@ -1,0 +1,20 @@
+name = "Work Day"
+slug = "work-day"
+kind = "everyday"
+version = 1
+grows-from = "charter >= 2"
+licence = "CC-BY-SA-4.0"
+also-known-as = ["dugnad", "minga", "gotong royong", "bayanihan", "shramadana", "barn raising"]
+
+[provisions]
+resources = ["task slots (shared)", "tools and materials (offered)"]
+records = ["workday.proposed", "workday.joined", "item.offered", "workday.held", "thanks.given"]
+roles = ["host", "task lead", "meal lead", "safety"]
+rules = [
+  "a household agrees before work on its home",
+  "a safety briefing before tool use",
+  "work days for those most in need come first",
+]
+prompts = ["reminder the day before", "suggest the next work day afterward"]
+views = ["work day page", "task board", "meal list"]
+privacy = "circle (open to invited guests)"

@@ -1,0 +1,15 @@
+name = "Licensing"
+slug = "licensing"
+kind = "practice"
+version = 1
+grows-from = "charter >= 2"
+licence = "CC-BY-SA-4.0"
+
+[provisions]
+licences = { code = "AGPL-3.0-or-later", documents = "CC-BY-SA-4.0" }
+inbound-equals-outbound = true
+records = ["accord.signed"]
+rules = [
+  "contributors confirm each contribution is theirs to give",
+  "contributions are shared under the licences above",
+]

@@ -1,0 +1,18 @@
+name = "Pattern Sharing"
+slug = "pattern-sharing"
+kind = "practice"
+version = 1
+grows-from = "charter >= 2"
+excludes = ["anonymity", "high-risk"]
+licence = "CC-BY-SA-4.0"
+
+[provisions]
+shares = "aggregates only, chosen per item by the circle"
+items = ["circle health", "responsiveness", "accords used", "crisis response", "wellbeing (optional, individual opt-out)", "land in trust"]
+never = ["names", "message content", "who helped whom", "attendance", "precise locations"]
+computed-on = "circle hearths"
+protections = ["minimum group size", "differential privacy"]
+roles = ["pattern steward"]
+records = ["pattern.adopted", "pattern.item.changed", "pattern.sent", "pattern.withdrawn"]
+views = ["what we share", "what we've learned"]
+privacy = "circle"
