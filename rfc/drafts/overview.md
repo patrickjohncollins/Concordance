@@ -31,6 +31,8 @@ Every architectural choice traces back to a promise in the charter. If a design 
 | Bigger things need agreement everyone can live with | Every charter and accord version is content-addressed and signed; history is append-only |
 | Anyone can take part without our tools | Works offline; a paper path for members without devices; plain language, large type, voice |
 | Thank generously; everyone's gifts count | No scores, rankings or leaderboards anywhere in the data model or the interface |
+| Words are provisions | In time, one Selewa text is both what members sign and what the app applies; no gap between words and behavior |
+| The circle decides what it means | Promises are supported, never enforced; only protections are enforced; open phrases go to the circle; when the tool and the circle disagree, the text is fixed |
 
 ## Architecture at a glance
 

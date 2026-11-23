@@ -3,7 +3,8 @@ slug = "selewa"
 kind = "practice"
 version = 0
 status = "seed"
-grows-from = ["charter >= 2", "standards >= 1"]
+grows-from = "charter >= 2"
+requires = ["standards >= 1"]
 licence = "CC-BY-SA-4.0"
 language-tag = "art-x-selewa"
 

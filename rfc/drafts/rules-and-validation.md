@@ -24,6 +24,8 @@ There is no server to enforce rules, so every peer checks every record it receiv
 
 **Spirit over thresholds.** The charter avoids hard numbers, so most v0 rules record and surface rather than block: the app shows that a request has gone unanswered or that a member has gone quiet, and leaves the response to people. Hard blocks exist only where safety or integrity needs them: unsigned records, revoked devices, care records opened by someone not named.
 
+**Promises, not commands.** Provisions are grouped as promises (the tool reminds and records, never blocks), freedoms ("we can"), requests ("we ask"), hopes, and protections. Validation blocks only to keep a protection, never to enforce a promise. See the `selewa-meaning-layer` draft.
+
 **Forks are allowed.** If members can't accept a change, they can start a new circle from any charter version. A fork is a new circle id with a `circle.founded` record that cites its parent; members' histories travel with them.
 
 **Later:** a sandboxed rule engine (WebAssembly) so circles can share richer rules within their accords without anyone running untrusted code.

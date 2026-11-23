@@ -30,3 +30,5 @@ Concordance should feel like a natural extension of the world's long-lived coope
 **Local names and forms.** Circles name their practices in their own words, and the accord library holds versions contributed by circles in different cultures.
 
 **Designed for renewal.** A quiet circle can be revived from its records; experienced members can take a mentoring role for new circles; a shared archive keeps each circle's stories when its founders move on.
+
+**Bahá'í practice.** Bahá'í consultation seeks the truth together rather than winning an argument, and Bahá'í elections have no candidates or campaigning. Bahá'u'lláh's call for a universal auxiliary language, taught beside every mother tongue, is one inspiration for Selewa.

@@ -6,11 +6,12 @@ Working plan for Concordance, carried over from the design doc of 2026-11-22.
 
 These steps come before any code, in this order.
 
-- [ ] Choose the licence for code, specs and charter.
+- [x] Choose the licence for code, specs and charter. (Decision 0005: AGPL-3.0-or-later for code, CC-BY-SA-4.0 for documents.)
 - [ ] Form the stewards' circle: who starts it, how stewards join and leave, and how many signatures a release needs.
 - [ ] Adapt the charter for the stewards' circle, adding how code changes and releases are agreed and signed.
-- [ ] Set up the repository with the agreed layout, plus a read-only mirror.
-- [ ] Write decision records for the big choices: Iroh, Tauri, gitoxide and native Git hosting, the licence.
+- [x] Set up the repository with the agreed layout (github.com/patrickjohncollins/Concordance, 2026-11-23).
+- [ ] Set up a read-only mirror.
+- [x] Write decision records for the big choices: Iroh, Tauri, gitoxide and native Git hosting, the licence (decisions 0002 to 0005).
 - [ ] Write the first protocol specs: identity, device delegation, records, charter signing.
 - [ ] Write behavior specs for joining a circle and signing the charter.
 - [ ] Write conformance vectors for those specs.
@@ -31,13 +32,25 @@ v0 does exactly what the charter needs and nothing more: identity, joining, sign
 
 **Not in v0:** resources and scarcity rules, federation, care-circle records, erasure coding, shared compute, translations beyond English. Each waits until real circles ask for it.
 
+**Locked in now, so Selewa can follow later.** v0 accords use a canonical, hash-identified encoding, so signatures can later move onto meaning trees, and their provisions are already grouped as promise, can, ask, hope and protection.
+
+**After v0: Selewa milestones**
+
+1. **Selewa seed and compiler:** the seed reviewed from many host languages, and the Work Day accord written in precise Selewa and compiled to provisions. *Gate:* the compiled provisions match the hand-written `accord.toml`, and a circle confirms the paraphrase says what they mean.
+2. **Accords written in Selewa:** new accords written as Selewa text, with TOML generated. *Gate:* a member with no programming background writes a working accord that a circle adopts.
+
 ## Open questions
 
 - [ ] Does Tauri 2 on mobile give reliable background sync, or do phones need native code for that part?
 - [ ] Which reference board for the first hearth image, given availability and price in different countries?
 - [ ] Who maintains the community relay list, and how are relays added or removed?
 - [ ] How do maintainers sign releases, and how does that group change over time?
-- [ ] Which open licence: a strong copyleft (AGPL) to keep every version open, or something more permissive to encourage adoption?
+- [x] Which open licence? Resolved by decision 0005.
 - [ ] How do circles find each other for federation without a central directory?
 - [ ] How does a steward's role for paper members stay accountable?
 - [ ] Which first languages after English, and who translates?
+- [ ] Which formal semantics should the Selewa meaning layer use?
+- [ ] Who confirms a parse on behalf of a whole circle?
+- [ ] How are "the circle decides" decisions recorded?
+- [ ] Can every script mapping be made fully reversible?
+- [ ] How is the signed form of Selewa encoded?
